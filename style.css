@@ -1,7 +1,60 @@
-html, body {
+/* Importo tipografías de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+/*'https://fonts.googleapis.com/css2?family=Anton&display=swap'*/
+body{
+  background-color:white;
+  font-size: 22px;
+  font-family: 'Source Sans Pro';
   margin: 0;
-  padding: 0;
+  padding: 100;
 }
-canvas {
-  display: block;
+
+header{ 
+  font-size: 35px;
+  font-family:'Lobster', 'Anton', sans-serif;
+  color: white;
+  padding: 4px 30px;
+  margin-top: 0em;
+  background-color:rgb(0, 0, 0);
+}
+
+#container{
+  margin: 200px;
+  width: 80%;
+  max-width: 700px;
+  padding: 5px 80px; 
+}
+
+h1{
+  font-size: 48px;
+  color:white;
+  
+}
+
+#p5{
+  margin: 200px;
+  width: 80%;
+  max-width: 700px;
+  padding: 3px 3px; 
+}
+
+p{color:rgb(0, 0, 0); 
+  padding: 5px 80px;
+}
+
+footer{
+  background-color:rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 0.5em; /* EM square */
+  margin-top:16em; 
+   
+}
+
+footer a{
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-decoration: underline;
+  cursor: crosshair; 
 }
